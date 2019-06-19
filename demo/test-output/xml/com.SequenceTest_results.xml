@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SequenceTest"
+           tests="6"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="0.035">
+  <properties />
+            <testcase name="test5" time="0.000" classname="com.SequenceTest">
+                <failure type="org.testng.TestNGException"
+                  message="
+Parameter &apos;testParam&apos; is required by @Test on method test5 but has not been marked @Optional or defined
+in D:\workspace\demo\src\main\resources\testng\test.xml"
+              >
+<![CDATA[org.testng.TestNGException: 
+Parameter 'testParam' is required by @Test on method test5 but has not been marked @Optional or defined
+in D:\workspace\demo\src\main\resources\testng\test.xml
+  org.testng.internal.Parameters.createParameters(Parameters.java:155)
+  org.testng.internal.Parameters.createParameters(Parameters.java:358)
+  org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+  org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+  org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="test2" time="0.004" classname="com.SequenceTest" />
+                <testcase name="test4" time="0.002" classname="com.SequenceTest" />
+                <testcase name="test5" time="0.002" classname="com.SequenceTest" />
+                <testcase name="test1" time="0.025" classname="com.SequenceTest" />
+                <testcase name="test3" time="0.002" classname="com.SequenceTest" />
+      
+</testsuite>

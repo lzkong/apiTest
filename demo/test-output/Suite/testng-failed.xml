@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="SequenceTest(failed)" parallel="classes">
+    <classes>
+      <class name="com.SequenceTest">
+        <methods>
+          <include name="test5"/>
+          <include name="afterTest0"/>
+          <include name="beforeTest0"/>
+        </methods>
+      </class> <!-- com.SequenceTest -->
+    </classes>
+  </test> <!-- SequenceTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
