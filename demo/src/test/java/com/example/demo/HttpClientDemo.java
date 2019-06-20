@@ -13,7 +13,7 @@ public class HttpClientDemo {
 
 	@Test
 	public void test() throws IOException {
-		HttpRequestConfig config = HttpRequestConfig.create().url("http://gateway-test.lygou.cc/services/v1/gift/send")
+		HttpRequestConfig config = HttpRequestConfig.create().url("*****/services/v1/gift/send")
 				.httpEntityType(HttpEntityType.ENTITY_STRING)
 				.json("{" + "\"r_user_id\":120," + "\"g_id\":126," + "\"regoin\":1," + "\"regoin_id\":23,"
 						+ "\"g_num_id\":10," + "\"region_type\":1" + "}")
