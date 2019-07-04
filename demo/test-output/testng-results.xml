@@ -2,50 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7027" started-at="2019-06-19T09:11:29Z" finished-at="2019-06-19T09:11:36Z">
+  <suite name="Suite" duration-ms="144" started-at="2019-07-04T08:07:01Z" finished-at="2019-07-04T08:07:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7027" started-at="2019-06-19T09:11:29Z" finished-at="2019-06-19T09:11:36Z">
-      <class name="com.testng.LoginTest">
-        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.testng.LoginTest@19d481b]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="8" started-at="2019-06-19T17:11:29Z" finished-at="2019-06-19T17:11:29Z">
+    <test name="Test01" duration-ms="144" started-at="2019-07-04T08:07:01Z" finished-at="2019-07-04T08:07:01Z">
+      <class name="com.example.demo.Test01">
+        <test-method status="PASS" signature="failedTest()[pri:0, instance:com.example.demo.Test01@4efbca5a]" name="failedTest" duration-ms="66" started-at="2019-07-04T16:07:01Z" description="侯征测试" finished-at="2019-07-04T16:07:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.testng.LoginTest@19d481b]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="5200" started-at="2019-06-19T17:11:29Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2019-06-19T17:11:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.testng.LoginTest@19d481b]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-06-19T17:11:34Z" finished-at="2019-06-19T17:11:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.testng.LoginTest.login() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.testng.LoginTest@19d481b]" name="login" duration-ms="1801" started-at="2019-06-19T17:11:34Z" finished-at="2019-06-19T17:11:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.testng.LoginTest@19d481b]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-06-19T17:11:36Z" finished-at="2019-06-19T17:11:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.testng.LoginTest.login() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.testng.LoginTest@19d481b]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2019-06-19T17:11:36Z" finished-at="2019-06-19T17:11:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextAfterTestClass -->
-      </class> <!-- com.testng.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- failedTest -->
+      </class> <!-- com.example.demo.Test01 -->
+    </test> <!-- Test01 -->
+  </suite> <!-- Suite -->
 </testng-results>
